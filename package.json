@@ -1,1 +1,12 @@
+{
+  "name": "usb-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "usb": "^2.4.0"
+  }
+}
 
