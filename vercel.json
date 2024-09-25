@@ -1,1 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/usb-devices.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/usb-devices", "dest": "/api/usb-devices.js" }
+  ]
+}
 
